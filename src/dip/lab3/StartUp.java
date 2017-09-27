@@ -10,5 +10,8 @@ package dip.lab3;
  * @author Ashlee
  */
 public class StartUp {
-    
+    public static void main(String[] args){
+        
+        Output output = new GUIConsole();
+    }
 }
