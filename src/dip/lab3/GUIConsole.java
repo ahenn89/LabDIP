@@ -8,7 +8,7 @@ import javax.swing.*;
 public class GUIConsole implements Output{
 
     @Override
-    public void outputMessage(String message) {
+    public void messageOutput(String message) {
         JOptionPane.showMessageDialog(null, message);
     }
     

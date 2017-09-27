@@ -15,7 +15,7 @@ public class MessageService {
     
      public final void produceMessage(){
         String message = messageInput.readMessage();
-        //messageOutput.messageOutput(message);
+        messageOutput.messageOutput(message);
     }
      
 //     public MessageService(messageInput input){
