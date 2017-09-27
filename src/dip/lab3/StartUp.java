@@ -11,7 +11,18 @@ package dip.lab3;
  */
 public class StartUp {
     public static void main(String[] args){
+        //inputs
+        Input messageInput = new oneLiners();
+
+        //Input messageInput = new ConsoleInput();
         
+         
+        //outputs
         Output messageOutput = new GUIConsole();
+        //Output messageOutput = new ConsoleOutput();
+        
+        //test input & output
+        System.out.println(messageOutput);
+
     }
 }

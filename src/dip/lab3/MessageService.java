@@ -22,6 +22,7 @@ public class MessageService {
 //        setInput(input);
 //        setOutput(output);
 //    }
+     
     public Input getMessageInput() {
         return messageInput;
     }
