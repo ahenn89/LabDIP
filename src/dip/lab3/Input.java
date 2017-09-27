@@ -1,5 +1,5 @@
 /*
-Interface
+Input Interface
  */
 package dip.lab3;
 
@@ -9,4 +9,5 @@ package dip.lab3;
  */
 public interface Input {
     
+    String readMessage();
 }
