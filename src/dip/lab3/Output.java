@@ -9,5 +9,5 @@ package dip.lab3;
  */
 public interface Output {
     
-    void messageOutput(String message);
+    public abstract void messageOutput(String message);
 }
