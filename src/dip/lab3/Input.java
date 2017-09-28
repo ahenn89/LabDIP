@@ -1,5 +1,5 @@
 /*
-Input Interface - high level
+Input Interface - abstraction
  */
 package dip.lab3;
 
@@ -9,5 +9,5 @@ package dip.lab3;
  */
 public interface Input {
     
-    String readMessage();
+    public abstract String readMessage();
 }

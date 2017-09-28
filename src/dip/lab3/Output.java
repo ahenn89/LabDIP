@@ -1,5 +1,5 @@
 /*
-Output Interface
+Output Interface - abstraction
  */
 package dip.lab3;
 
@@ -9,5 +9,5 @@ package dip.lab3;
  */
 public interface Output {
     
-    public abstract void messageOutput(String message);
+    public abstract String messageOutput(String message);
 }
